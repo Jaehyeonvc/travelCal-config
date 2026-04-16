@@ -34,7 +34,7 @@
       "title": "마이리얼트립",
       "icon": "🎟️",
       "section": "액티비티",                                                                                         "description": "현지 투어, 입장권, 교통패스",
-      "urlTemplate": "https://linkmoa.kr/click.php?m=myrealtrip&a=A100703877&l=9999&l_cd1=3&l_cd2=0&tu=https%3A%2F%  2Fwww.myrealtrip.com%2Fsearch%3Fq%3D{city}",                                           
+      "urlTemplate": "https://linkmoa.kr/click.php?m=myrealtrip&a=A100703877&l=9999&l_cd1=3&l_cd2=0&tu=https%3A%2F%2Fwww.myrealtrip.com%2Fsearch%3Fq%3D{city}",                                           
       "affiliate": true                                                                                            },                                                                                  
     {                                                                                                          
       "id": "wise_aff",
