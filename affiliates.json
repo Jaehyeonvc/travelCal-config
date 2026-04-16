@@ -1,0 +1,21 @@
+[
+    {
+      "id": "hotel",
+      "title": "숙소 예약",
+      "icon": "🏨",                                                                                                  "description": "여행지 숙소를 검색하세요",
+      "urlTemplate":                                                                                           
+  "https://example.com/hotel?city={city}&checkin={startDate}&checkout={endDate}&adults={guests}"               
+    },                                                                                                             {                                                                                                          
+      "id": "insurance",                                                                                       
+      "title": "여행자 보험",
+      "icon": "🛡️",          ,
+      "description": "여행 기간에 맞는 보험 가입",
+      "urlTemplate": "https://example.com/insurance?start={startDate}&end={endDate}&people={guests}"
+    },                                                                                                         
+    {                                                                                                                "id": "activity",                                                                                        
+      "title": "액티비티 예약",                                                                                
+      "icon": "🎫",
+      "description": "현지 투어 및 액티비티",
+      "urlTemplate": "https://example.com/activity?city={city}&date={startDate}"
+    }                                                                                                          
+  ]
