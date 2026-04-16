@@ -1,21 +1,54 @@
-[
-    {
-      "id": "hotel",
-      "title": "숙소 예약",
-      "icon": "🏨",                                                                                                  "description": "여행지 숙소를 검색하세요",
+[                                                                                                                {
+      "id": "skyscanner_aff",                                                                                  
+      "title": "Skyscanner",                                                                                         "icon": "✈️",
+      "section": "항공권",                                                                                     
+      "description": "항공권 가격 비교 · 최저가 알림",                                                         
       "urlTemplate":                                                                                           
-  "https://example.com/hotel?city={city}&checkin={startDate}&checkout={endDate}&adults={guests}"               
-    },                                                                                                             {                                                                                                          
-      "id": "insurance",                                                                                       
-      "title": "여행자 보험",
-      "icon": "🛡️",          ,
-      "description": "여행 기간에 맞는 보험 가입",
-      "urlTemplate": "https://example.com/insurance?start={startDate}&end={endDate}&people={guests}"
+  "https://www.skyscanner.net/transport/flights/icn/{cityIata}/{startDate}/{endDate}/?adultsv2={guests}",            "affiliate": true                                                                                        
     },                                                                                                         
-    {                                                                                                                "id": "activity",                                                                                        
-      "title": "액티비티 예약",                                                                                
-      "icon": "🎫",
-      "description": "현지 투어 및 액티비티",
-      "urlTemplate": "https://example.com/activity?city={city}&date={startDate}"
+    {
+      "id": "booking_aff",
+      "title": "Booking.com",                                                                                        "icon": "🏨",
+      "section": "숙소",                                                                                       
+      "description": "150만+ 숙소 예약 · 무료 취소 다수",
+      "urlTemplate": "https://www.booking.com/searchresults.html?ss={city}&checkin={startDate}&checkout={endDat  e}&group_adults={guests}",
+      "affiliate": true                                                                                        
+    },                                                                                                             {
+      "id": "agoda_aff",                                                                                       
+      "title": "Agoda",
+      "icon": "🏯",
+      "section": "숙소",
+      "description": "아시아 호텔 강세 · 시크릿 딜",
+      "urlTemplate":                                                                                           
+  "https://www.agoda.com/search?city={city}&checkIn={startDate}&checkOut={endDate}&adults={guests}",                 "affiliate": true                                                                                        
+    },                                                                                                         
+    {
+      "id": "klook_aff",
+      "title": "Klook",
+      "icon": "🎟️",
+      "section": "액티비티",                                                                                         "description": "현지 투어, 입장권, 교통패스",
+      "urlTemplate": "https://www.klook.com/ko/search?query={city}",                                           
+      "affiliate": true                                                                                            },                                                                                  
+     {
+      "id": "myrealtrip_aff",
+      "title": "마이리얼트립",
+      "icon": "🎟️",
+      "section": "액티비티",                                                                                         "description": "현지 투어, 입장권, 교통패스",
+      "urlTemplate": "https://linkmoa.kr/click.php?m=myrealtrip&a=A100703877&l=9999&l_cd1=3&l_cd2=0&tu=https%3A%2F%  2Fwww.myrealtrip.com%2Fsearch%3Fq%3D{city}",                                           
+      "affiliate": true                                                                                            },                                                                                  
+    {                                                                                                          
+      "id": "wise_aff",
+      "title": "Wise",
+      "icon": "💱",
+      "section": "환전",
+      "description": "실환율로 50개국 송금 · 다중 통화 계좌",                                                  
+      "urlTemplate": "https://wise.com",                                                                       
+      "affiliate": true                                                                                            },                                                                                                         
+    {                                                                                                          
+      "id": "safetywing_aff",
+      "title": "SafetyWing",
+      "icon": "🛡️",                                                                                                  "section": "여행자 보험",
+      "description": "장기 여행자 보험 · 전 세계 커버",                                                        
+      "urlTemplate": "https://safetywing.com",                                                                       "affiliate": true
     }                                                                                                          
   ]
