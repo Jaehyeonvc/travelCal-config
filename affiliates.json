@@ -1,55 +1,67 @@
-[                                                                                                                {
-      "id": "skyscanner_aff",                                                                                  
-      "title": "Skyscanner",                                                                                         "icon": "✈️",
+[                                                                                                                
+      {
+      "id": "interpark_aff",                                                                                   
+      "title": "인터파크 투어",                                                                                      
+      "icon": "✈️",
       "section": "항공권",                                                                                     
-      "description": "항공권 가격 비교 · 최저가 알림",                                                         
-      "urlTemplate":                                                                                           
-  "https://www.skyscanner.net/transport/flights/icn/{cityIata}/{startDate}/{endDate}/?adultsv2={guests}",            "affiliate": true                                                                                        
+      "description": "항공권 · 호텔 · 패키지 통합 검색",
+      "urlTemplate": "https://bestmore.net/click.php?m=interpark3&a=A100703877&l=9999&l_cd1=3&l_cd2=0&tu=http%3A%2F%2Fmtravel.interpark.com",                                                                                     "affiliate": true                                                                                        
     },                                                                                                         
     {
-      "id": "booking_aff",
-      "title": "Booking.com",                                                                                        "icon": "🏨",
+      "id": "skyscanner_aff",
+      "title": "Skyscanner",
+      "icon": "✈️",
+      "section": "항공권",
+      "description": "항공권 가격 비교 · 최저가 알림",                                                               
+          "urlTemplate":"https://www.skyscanner.net/transport/flights/icn/{cityIata}/{startDate}/{endDate}/?adultsv2={guests}",            
+          "affiliate": false
+    },                                                                                                         
+    {
+      "id": "yanolja_aff",
+      "title": "야놀자",                                                                                             
+      "icon": "🏠",
       "section": "숙소",                                                                                       
+      "description": "국내 숙소 예약 · 펜션 · 호텔 · 모텔",
+      "urlTemplate": "https://lase.kr/click.php?m=yanolja&a=A100703877&l=9999&l_cd1=3&l_cd2=0&tu=https%3A%2F%2Fnol.yanolja.com%2F",                                                                                               "affiliate": true                                                                                        
+    },                                                                                                         
+    {                                                                                                                
+      "id": "booking_aff",
+      "title": "Booking.com",                                                                                  
+      "icon": "🏨",
+      "section": "숙소",
       "description": "150만+ 숙소 예약 · 무료 취소 다수",
-      "urlTemplate": "https://www.booking.com/searchresults.html?ss={city}&checkin={startDate}&checkout={endDat  e}&group_adults={guests}",
-      "affiliate": true                                                                                        
-    },                                                                                                             {
-      "id": "agoda_aff",                                                                                       
+      "urlTemplate": "https://www.booking.com/searchresults.html?ss={city}&checkin={startDate}&checkout={endDate}&group_adults={guests}",                                                                                         "affiliate": false                                                                                       
+    },                                                                                                         
+    {
+      "id": "agoda_aff",
       "title": "Agoda",
       "icon": "🏯",
       "section": "숙소",
       "description": "아시아 호텔 강세 · 시크릿 딜",
-      "urlTemplate":                                                                                           
-  "https://www.agoda.com/search?city={city}&checkIn={startDate}&checkOut={endDate}&adults={guests}",                 "affiliate": true                                                                                        
+      "urlTemplate": "https://lpweb.kr/click.php?m=agoda&a=A100703877&l=9999&l_cd1=3&l_cd2=0&tu=http%3A%2F%2Fwww.agoda.com%2Fko-kr%2Fpartners%2Fpartnersearch.aspx",                                                              "affiliate": true                                                                                        
     },                                                                                                         
     {
-      "id": "klook_aff",
-      "title": "Klook",
-      "icon": "🎟️",
-      "section": "액티비티",                                                                                         "description": "현지 투어, 입장권, 교통패스",
-      "urlTemplate": "https://www.klook.com/ko/search?query={city}",                                           
-      "affiliate": true                                                                                            },                                                                                  
-     {                                                                                                            
-    "id": "myrealtrip_aff",                                                                                    
-    "title": "마이리얼트립",                                                                                       
-    "icon": "🎫",
-    "section": "액티비티",                                                                                     
-    "description": "현지 투어, 입장권, 항공권, 숙소",
-    "urlTemplate": "https://linkmoa.kr/click.php?m=myrealtrip&a=A100703877&l=9999&l_cd1=3&l_cd2=0&tu=https%3A%2F%2Fwww.myrealtrip.com%2Fsearch%3Fq%3D{city_enc}",                                                               "affiliate": true                                                                                          
-  }     ,                                                                                  
-    {                                                                                                          
-      "id": "wise_aff",
-      "title": "Wise",
-      "icon": "💱",
-      "section": "환전",
-      "description": "실환율로 50개국 송금 · 다중 통화 계좌",                                                  
-      "urlTemplate": "https://wise.com",                                                                       
-      "affiliate": true                                                                                            },                                                                                                         
-    {                                                                                                          
-      "id": "safetywing_aff",
-      "title": "SafetyWing",
-      "icon": "🛡️",                                                                                                  "section": "여행자 보험",
-      "description": "장기 여행자 보험 · 전 세계 커버",                                                        
-      "urlTemplate": "https://safetywing.com",                                                                       "affiliate": true
-    }                                                                                                          
-  ]
+      "id": "hotelscombined_aff",
+      "title": "호텔스컴바인",                                                                                      
+      "icon": "🔍",
+      "section": "숙소",                                                                                       
+      "description": "숙소 가격 비교 · 최저가 검색",                                                                 
+      "urlTemplate": "https://newtip.net/click.php?m=hcombine2&a=A100703877&l=9999&l_cd1=3&l_cd2=0&tu=https%3A%2F%2Fwww.hotelscombined.co.kr",                                                                                    "affiliate": true
+    },                                                                                                             
+    {
+      "id": "traveloka_aff",                                                                                   
+      "title": "Traveloka",
+      "icon": "🌏",
+      "section": "숙소",
+      "description": "동남아 숙소 · 항공 · 액티비티",                                                                
+      "urlTemplate": "https://newtip.net/click.php?m=traveloka&a=A100703877&l=9999&l_cd1=3&l_cd2=0&tu=https%3A%2F%2Fwww.traveloka.com%2Fko-kr",                                                                                   "affiliate": true
+    },                                                                                                         
+    {
+      "id": "myrealtrip_aff",
+      "title": "마이리얼트립",
+      "icon": "🎫",
+      "section": "액티비티",                                                                                         
+      "description": "현지 투어, 입장권, 항공권, 숙소",
+      "urlTemplate": "https://linkmoa.kr/click.php?m=myrealtrip&a=A100703877&l=9999&l_cd1=3&l_cd2=0&tu=https%3A%2F%2Fwww.myrealtrip.com%2F",                                                                                      "affiliate": true
+    }
+]
